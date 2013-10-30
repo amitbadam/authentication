@@ -1,6 +1,6 @@
 == Authentication from Scratch
 
-$ rails g controller users new
+$ rails g controller users new<br>
 $ rails g model user email:string password_hash:string password_salt:string
 $ rake db:migrate
 $ rails g controller sessions new
